@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SayMyNum</string>
+    <string name="type_a_number">Type a number</string>
+    <string name="say_it">Say it</string>
+    <string name="format_error">"Not a valid number "</string>
+    <string name="empty_error">Number cannot be empty</string>
+    <string name="generic_error">Please type a valid number</string>
+    <string name="prompt_for_num">Please type a number</string>
+    <string name="max">MAX</string>
+    <string name="cant_count">Sorry, can\'t count more that a hundred nonillions.</string>
+    <string name="nan">NaN</string>
+    <string name="invalid_num">Please provide a valid number. Only numeral [0–9] are accepted</string>
+    <string name="capitalize">Capitalize</string>
+</resources>

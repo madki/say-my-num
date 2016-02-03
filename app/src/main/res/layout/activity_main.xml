@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_capitalize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/margin_regular"
+            android:text="@string/capitalize" />
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_regular"
+            android:gravity="center"
+            android:hint="@string/type_a_number"
+            android:inputType="number"
+            android:padding="@dimen/margin_large" />
+
+        <TextView
+            android:id="@+id/tv_num_pretty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_regular"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="1,234,567" />
+
+
+        <TextView
+            android:id="@+id/tv_num_str"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin_regular"
+            android:gravity="center"
+            android:textSize="16sp"
+            tools:text="One hundred and thirty three" />
+
+    </LinearLayout>
+</ScrollView>
